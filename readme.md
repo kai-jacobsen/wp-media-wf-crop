@@ -3,6 +3,8 @@
 This is a sample WordPress plugin to demonstrate a custom cropping workflow, leveraging the native wp.media 
 modal / MediaFrame.
 The plugin adds a new meta box to posts.
+No data is saved.
+!New attachment entries are created for each new cropped image!
 
 ####User story:  
 1. User is asked to upload a new image to the library or select one from the media library
@@ -26,7 +28,7 @@ The provided settings define the min-width & min-height parameters of the imgare
 #####callback
 
     /*
-    * @param attachment wp.media.model.Attachment
+    * @param attachment wp.media.model.Attachmen
     */
     function croppedCallback(attachment){}
 
