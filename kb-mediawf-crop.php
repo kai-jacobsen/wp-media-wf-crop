@@ -1,13 +1,12 @@
 <?php
 /**
- * Plugin Name: MediaFrame: Image Crop (Proof of concept)
- * Description: a custom 2-step media workflow with (forced) image cropping. Creates an demo meta box for posts
+ * Plugin Name: MediaFrame: Image Crop (proof of concept)
+ * Description: a custom 2-step media workflow with (forced) image cropping. Creates an demo meta box for posts.
  * Plugin URI:
  * Version:     0.0.1
  * Author:      Kai Jacobsen @kjcbsn
  * Author URI:  https://github.com/kai-jacobsen
  * License:     GPLv2+
- * License URI: ./license.txt
  *
  * Php Version 5.3
  *
